@@ -79,9 +79,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'webDevSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Web Development',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -98,7 +98,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Web Development',
                 to: '/docs/intro',
               },
             ],
@@ -107,16 +107,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/Eric-Cortez/DevToolkit',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/eric-cortez-0101/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Relit',
+                href: 'https://replit.com/@EricCortez5',
               },
             ],
           },
