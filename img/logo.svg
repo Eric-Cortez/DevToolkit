@@ -1,0 +1,44 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="100"
+  height="100"
+  viewBox="0 0 100 100"
+  fill="none"
+>
+  <!-- Toolbox body -->
+  <rect width="80" height="60" rx="5" fill="#000000" />
+
+  <!-- Toolbox handle -->
+  <rect x="10" y="60" width="60" height="10" rx="3" fill="#000000" />
+
+  <!-- Screw 1 -->
+  <circle cx="85" cy="5" r="3" fill="#ffffff" />
+
+  <!-- Screw 2 -->
+  <circle cx="15" cy="5" r="3" fill="#ffffff" />
+
+  <!-- Text -->
+  <text
+    x="50%"
+    y="50%"
+    alignment-baseline="middle"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="12"
+    fill="#ffffff"
+  >
+    Web
+  </text>
+  <text
+    x="50%"
+    y="60%"
+    alignment-baseline="middle"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="12"
+    fill="#ffffff"
+  >
+    Toolbox
+  </text>
+</svg>
+
