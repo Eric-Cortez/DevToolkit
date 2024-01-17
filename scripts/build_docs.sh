@@ -43,8 +43,3 @@ echo "-----------------------------------"
 echo "Building static site"
 echo "-----------------------------------"
 yarn build || npm run build
-
-echo "-----------------------------------"
-echo "Starting local server"
-echo "-----------------------------------"
-yarn start || npm start
