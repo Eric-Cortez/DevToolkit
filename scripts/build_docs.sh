@@ -29,15 +29,22 @@ check_command() {
 }
 
 check_command node
+check_command yarn
 
 echo "node version: $(node --version)"
+echo "yarn version: $(yarn --version)"
+
+echo "-----------------------------------"
+echo "Getting Docusaurus deps" 
+echo "-----------------------------------"
+yarn
 
 echo "-----------------------------------"
 echo "Building static site"
 echo "-----------------------------------"
-npm run build || exit
+yarn build || npm run build
 
 echo "-----------------------------------"
 echo "Starting local server"
 echo "-----------------------------------"
-npm start || exit
+yarn start || npm start
