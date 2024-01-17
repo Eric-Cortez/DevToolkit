@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# Create a Document
-
+# Typography
+<!-- 
 Documents are **groups of pages** connected through:
 
 - a **sidebar**
@@ -54,4 +54,4 @@ export default {
     },
   ],
 };
-```
+``` -->
