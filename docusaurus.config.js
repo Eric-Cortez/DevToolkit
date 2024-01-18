@@ -83,6 +83,7 @@ const config = {
             position: 'left',
             label: 'Web Development',
           },
+          { to: `${baseUrl}about`,label: 'About', position: 'left' }, 
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Eric-Cortez/DevToolkit',
