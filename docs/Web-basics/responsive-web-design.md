@@ -15,7 +15,7 @@ Responsive Web Design (RWD) revolutionized the field of web development when it 
 
 ### The Article
 
-Ethan Marcotte's article, titled "Responsive Web Design," outlined a new method of designing and building websites that could adapt seamlessly to various screen sizes and devices. The key principles introduced in the article included:
+Ethan Marcotte's article, titled "[Responsive Web Design](http://alistapart.com/article/responsive-web-design)," outlined a new method of designing and building websites that could adapt seamlessly to various screen sizes and devices. The key principles introduced in the article included:
 
 ### Key Principles of Responsive Web Design
 
