@@ -10,21 +10,35 @@ CSS (Cascading Style Sheets) is a styling language used to control the presentat
 
 Selectors are patterns used to select and style HTML elements. Three main types:
 
-- **Tags/Elements:**
+- **Tags/Elements:** HTML elements (tags) act as selectors, enabling CSS rules to modify their appearances. Styles can enhance or completely transform the default look. For instance, the following css rule styles all `<p>` element with a font size of 24px and a color of #333.
   ```css
-  h1 {
+  p {
      font-size: 24px;
      color: #333;
   }
   ```
+  
+- **Classes:** When class attribute is added to an HTML tag, it modifies the tag's appearance, offering a versatile styling option for multiple tags. The class selector, identified by a period, can be used multiple times on a page. Example of a class declaration:
+
+  ```css
+    .highlight {
+        background-color: yellow;
+    }
+  ```
+
+- **IDs:** An ID selector uniquely identifies an element in an HTML document, naming and styling a specific part of the page layout. It is used only once on a page and starts with a pound sign (#).Example of an id declaration:
+  ```css
+    #header {
+    border-bottom: 1px solid #ccc;
+    }
+  ```
 
 ### Applying Styles
 
-
-Styles can be applied within an HTML document using the `<style>` tag or in an external stylesheet using the `<link>`. It is best practice to use an external style sheet. 
+Styles can be applied inline, within an HTML document using the `<style>` tag, or in an external stylesheet using the `<link>`. It is best practice to use an external style sheet as shown below. 
 
 Example: 
-```
+```html
     <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -56,6 +70,11 @@ All HTML elements can be considered as boxes. The CSS box model consists of:
 - **Padding:** Space between content and border.
 - **Border:** Border around the padding.
 - **Margin:** Space outside the border.
+
+[![Boxmodell-detail.png](https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png)](https://commons.wikimedia.org/wiki/File:Boxmodell-detail.png#/media/File:Boxmodell-detail.png)
+
+By [Matthias Apsel](//commons.wikimedia.org/wiki/User:G%C3%BCnther_M._Apsel) - Own work, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), [Link](https://commons.wikimedia.org/w/index.php?curid=34932417)
+
 
 ## Responsive Design
 
