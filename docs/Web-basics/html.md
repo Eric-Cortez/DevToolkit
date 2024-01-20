@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# HTML 
+# HTML Basics 
 
 ## Introduction to HTML: HyperText Markup Language
 HTML (HyperText Markup Language) is a fundamental language read by browsers to render webpages. As designers and front-end developers, HTML is a crucial part of our work. It serves as the structure for content on the web.
