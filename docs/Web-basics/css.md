@@ -51,6 +51,17 @@ Example:
     </html>
 ```
 
+## CSS Declaration Block
+
+A declaration block, enclosed by curly braces {}, is a set of property-value pairs that style HTML elements. Each declaration ends with a semicolon ;. Below is an example CSS rule for a paragraph:
+
+```css
+p {
+  background-color: blue;
+}
+```
+In this instance, we alter the background color of the HTML paragraph element.
+
 ## Common Properties
 
 Some commonly used CSS properties include:
@@ -129,3 +140,6 @@ CSS allows for the creation of responsive designs that adapt to different screen
 
 Note: These are just the basics of CSS. As you delve deeper, you'll discover more advanced features and techniques to create stunning web designs.
 
+## Resources 
+
+- [W3 CSS Specifications](https://www.w3.org/Style/CSS/)
