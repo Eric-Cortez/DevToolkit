@@ -96,7 +96,7 @@ Example:
    flex: 1;
    margin: 10px;
 }
-
+```
 ### Grid Layout
 
 Grid Layout is a two-dimensional layout system for the web. It allows you to design complex layouts with rows and columns, providing precise control over the placement and sizing of elements.
