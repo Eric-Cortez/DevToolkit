@@ -75,6 +75,45 @@ All HTML elements can be considered as boxes. The CSS box model consists of:
 
 By [Matthias Apsel](//commons.wikimedia.org/wiki/User:G%C3%BCnther_M._Apsel) - Own work, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), [Link](https://commons.wikimedia.org/w/index.php?curid=34932417)
 
+## Flexbox and Grid Layout
+
+Flexbox and Grid Layout are powerful CSS features that facilitate the creation of flexible and responsive designs.
+
+### Flexbox
+
+Flexbox is a one-dimensional layout method for laying out items in rows or columns. It provides an efficient way to distribute space and align items within a container.
+
+Example:
+
+```css
+.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.item {
+   flex: 1;
+   margin: 10px;
+}
+```
+### Grid Layout
+
+Grid Layout is a two-dimensional layout system for the web. It allows you to design complex layouts with rows and columns, providing precise control over the placement and sizing of elements.
+
+```css
+    .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .item {
+    grid-column: span 2;
+  }
+
+```
+These layouts offer flexibility and responsiveness, making them essential tools for modern web design.
 
 ## Responsive Design
 

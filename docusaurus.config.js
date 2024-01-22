@@ -13,7 +13,7 @@ const baseUrl = "/DevToolkit/";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DevToolkit',
-  tagline: 'Navigating the Digital Frontier, Armed with Code',
+  tagline: 'Bit by Bit: Crafting a Living Developer\'s Toolkit',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
