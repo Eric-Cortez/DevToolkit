@@ -32,6 +32,17 @@ Selectors are patterns used to select and style HTML elements. Three main types:
     border-bottom: 1px solid #ccc;
     }
   ```
+  
+## CSS Declaration Block
+
+A declaration block, enclosed by curly braces {}, is a set of property-value pairs that style HTML elements. Each declaration ends with a semicolon ;. Below is an example CSS rule for a paragraph:
+
+```css
+p {
+  background-color: blue;
+}
+```
+In this instance, we alter the background color of the HTML paragraph element.
 
 ### Applying Styles
 
@@ -65,11 +76,14 @@ Some commonly used CSS properties include:
 ## Box Model
 
 All HTML elements can be considered as boxes. The CSS box model consists of:
+- **Margin:** An area around the border of an element. It is always transparent, with no background color.
+- **Border:** The actual border that wraps the padding area. It can have styles set, and its background color is influenced by the background color of the element.
+- **Padding:** An area around the content (value) of an element. The background color of the padding is influenced by the background color of the element.
+- **Content:** The content or value of the element. This is where text, images, or other data appears. In the figure below, it is the blue shaded area.
 
-- **Content:** Actual content of the box.
-- **Padding:** Space between content and border.
-- **Border:** Border around the padding.
-- **Margin:** Space outside the border.
+Understanding an element's total width is crucial. It includes content, padding, border, and margin. Assuming the width is solely the content, a common error, can lead to site development issues. Using the box-sizing: border-box; property can prevent such problems.
+
+Using box-sizing: border-box; in CSS ensures that an element's width includes padding and border widths, preventing layout issues. This property helps maintain a more predictable and consistent box sizing in web development.
 
 [![Boxmodell-detail.png](https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png)](https://commons.wikimedia.org/wiki/File:Boxmodell-detail.png#/media/File:Boxmodell-detail.png)
 
@@ -129,3 +143,6 @@ CSS allows for the creation of responsive designs that adapt to different screen
 
 Note: These are just the basics of CSS. As you delve deeper, you'll discover more advanced features and techniques to create stunning web designs.
 
+## Resources 
+
+- [W3 CSS Specifications](https://www.w3.org/Style/CSS/)

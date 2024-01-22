@@ -78,3 +78,6 @@ For example:
 
 - [W3Schools HTML Reference](https://www.w3schools.com/tags/)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML Standard](https://html.spec.whatwg.org/multipage/)
+- [Can I use](https://caniuse.com/)
+Can I Use will help you determine if the HTML5 element you are using will work in a range of browsers. 
