@@ -76,11 +76,11 @@ Some commonly used CSS properties include:
 ## Box Model
 
 All HTML elements can be considered as boxes. The CSS box model consists of:
+- **Margin:** An area around the border of an element. It is always transparent, with no background color.
+- **Border:** The actual border that wraps the padding area. It can have styles set, and its background color is influenced by the background color of the element.
+- **Padding:** An area around the content (value) of an element. The background color of the padding is influenced by the background color of the element.
+- **Content:** The content or value of the element. This is where text, images, or other data appears. In the figure below, it is the blue shaded area.
 
-- **Content:** Actual content of the box.
-- **Padding:** Space between content and border.
-- **Border:** Border around the padding.
-- **Margin:** Space outside the border.
 
 [![Boxmodell-detail.png](https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png)](https://commons.wikimedia.org/wiki/File:Boxmodell-detail.png#/media/File:Boxmodell-detail.png)
 
