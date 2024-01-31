@@ -29,21 +29,21 @@ To start using JavaScript in your web projects, you have a few options:
 For better organization, you can create a separate JavaScript file (e.g., script.js) and link it to your HTML file:
 
 ```html
-    <script src="script.js"></script>
+<script src="script.js"></script>
 ```
 
 ### Browser Console
 
 You can also experiment with JavaScript in your browser's console. Simply open the browser console (usually by pressing F12 or right-clicking and selecting "Inspect") and navigate to the "Console" tab.
 
-### Basic Syntax 
+### Basic Syntax
 
 JavaScript code consists of statements, which are executed sequentially. Here's a simple example:
 
 ```js
-    // Variables
-let greeting = 'Hello, ';
-let name = 'John';
+// Variables
+let greeting = "Hello, ";
+let name = "John";
 
 // Concatenation
 let message = greeting + name;
@@ -51,6 +51,7 @@ let message = greeting + name;
 // Displaying the message
 console.log(message);
 ```
+
 ### Data Types
 
 JavaScript supports various data types, including:
@@ -62,6 +63,7 @@ JavaScript supports various data types, including:
 - Objects: { key: 'value' }
 - Arrays: ['apple', 'orange', 'banana']
 ```
+
 ### Control Flow
 
 JavaScript provides control flow statements to make decisions and control the flow of execution. Examples include:
@@ -79,14 +81,20 @@ for (let i = 0; i < 5; i++) {
   // Code to repeat five times
 }
 ```
+
 ## Resources
+
 These are just the basics of JavaScript. As you delve deeper, you'll discover more advanced concepts and features. Below are a few resources. Happy coding!
 
-### Tutorials 
+### Tutorials
+
 - [JavaScript Tutorials](https://javascript.info/)
 - [freecodecamp](https://www.freecodecamp.org/Links)
 - [W3 schools](https://www.w3schools.com/js/)
 - [MDN - JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Code Combat](https://codecombat.com/)
+- [MIT Scratch](https://scratch.mit.edu/)
+- [JS for cats](https://srjc.ethan.com/js4cats/)
 
 ### Validators and References
 
@@ -100,7 +108,26 @@ These are just the basics of JavaScript. As you delve deeper, you'll discover mo
 - [jQuery](http://www.jquery.com)
 - [W3Schools HTML](http://www.w3schools.com/html/)
 - [Bootstrap](http://getbootstrap.com)
-- [WordPress](http://wordpress.org)
+- [WordPress](http://wordpress.org) -[ECMA International (ECMAScript Authority)](https://www.ecma-international.org/)
+- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+
+### Advanced
+
+- [jQuery Library Project Site](https://jquery.com/)
+- [D3: Data Driven Documents Library Project Site](https://d3js.org/Links)
+- [Three.js Library Project Site](https://threejs.org/Links)
+- [Phaser.js Library Project Site](http://phaser.io/)
+- [Node.js Server-Side JavaScript Runtime Project Site](https://nodejs.org/)
+
+### Mapping
+
+- [Google Maps JavaScript API Project Site](https://developers.google.com/maps/documentation/javascript/tutorial)
+- [Leaflet](https://leafletjs.com/)
+- [OpenLayers](https://openlayers.org/)
+
+### Books
+
+- [Eloquent JavaScript Online Textbook (free)](https://eloquentjavascript.net/)
 
 ### Blogs and online magazines
 

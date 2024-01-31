@@ -146,3 +146,7 @@ Note: These are just the basics of CSS. As you delve deeper, you'll discover mor
 ## Resources 
 
 - [W3 CSS Specifications](https://www.w3.org/Style/CSS/)
+- [MDN CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+### Quiz
+- [W3Schools CSS Quiz](https://www.w3schools.com/css/css_quiz.asp)
